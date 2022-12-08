@@ -39,7 +39,7 @@ beforeEach(() => {
 
 describe("movie app", () => {
   it("should be able to type", () => {
-    cy.get("input").type("hej").should("have.value", "hej");
+    cy.get("input").type("harry").should("have.value", "harry");
   });
 
   it("should use real data", () => {
